@@ -4,6 +4,8 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
+        int forNewBracnch = 100;
+
         Random property = new Random();
 
         Griffindor GarryPotter = new Griffindor("Garry", "Potter", property.nextInt(101), property.nextInt(101), property.nextInt(101), property.nextInt(101), property.nextInt(11));
