@@ -1,8 +1,8 @@
 package hw2;
 
 public class Hogwards {
-    public String name;
-    public String surname;
+    private String name;
+    private String surname;
     private int magic;
     private int transgress;
 
